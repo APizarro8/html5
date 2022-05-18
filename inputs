@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <form>
+        <label for="iname">Name:</label>
+        <input id="iname" type="text" name="name">
+
+        <label for="isurname">Apellidos:</label>
+        <input id="isurname" type="text" name="surname">
+
+        <label for="iemail">Email:</label>
+        <input id="iemail" type="email" name="email">
+
+        <label for="ipass">Contraseña:</label>
+        <input id="ipass" type="password" name="pass">
+
+        <input type="submit" value="Enviar">
+
+        <input type="reset" value="Resetear">
+
+
+
+    </form>
+
+    <hr>
+
+    <form>
+        <input id="red" type="radio" name="color" value="red">
+        <label for="red">Rojo</label>
+
+        <input id="green" type="radio" name="color" value="green">
+        <label for="green">Verde</label>
+
+        <input id="blue" type="radio" name="color" value="blue">
+        <label for="blue">Azul</label>
+    </form>
+
+    <hr>
+    
+    <form>
+        <input id="red" type="checkbox" name="red" value="red">
+        <label for="red">Rojo</label>
+
+        <input id="green" type="checkbox" name="green" value="green">
+        <label for="green">Verde</label>
+
+        <input id="blue" type="checkbox" name="blue" value="blue">
+        <label for="blue">Azul</label>
+    </form>
+
+    <hr>
+
+    <form>
+        <input type="button" onclick="alert('Hola')">
+        <button>Hola</button>
+    </form>
+
+    <hr>
+
+    <form>
+        <input type="color" name="color">
+
+    </form>
+
+    <hr>
+
+    <form>
+        <input type="date" name="date">
+        <input type="datetime-local" name="date">
+        <input type="file" name="file">
+        <input type="number" name="num" min="0" max="50">
+        <input type="range" name="num" min="0" max="50">
+        <input type="search" name="search">
+        <input type="tel" name="phone">
+        <input type="time" name="hora">
+        <input type="url" name="url">
+
+    </form>
+
+</body>
+</html>
