@@ -1,2 +1,2 @@
 # html5
-html5 and CSS
+Init html5 and CSS
