@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    .box {
+        background-color: lightblue;
+        color: darkblue;
+        margin: 20px;
+        padding: 20px;
+    } 
+
+    .important{
+        font-weight: bold;
+        color:red;
+    }
+    </style>
+    <script>
+        function displayNoneBoxes() {
+            var elements = document.getElementsByClassName("box");
+            for (var i= 0; i < elements.length; i++) {
+                elements[i].style.display = "none"
+            }
+        }
+    </script>
+</head>
+<body>
+    <h3>Atributo class</h3>
+    <ul style="list-style-type: circle;">
+        <li>Caracteristicas</li>
+            <ul>
+                <li>Se utiliza para defirnir estilos iguales para mismos elementos al mismo tiempo.</li>
+                <li>Mismo estilo para varios elementos..</li>
+                <li>Puede ser usado en cualquier elemento HTML y es "case sensitive", distingue em mayus/minus.</li>
+                <li>Diferentes etiquetas pueden compartir las mismas clases.</li>
+                <li>Un elemento puede tener muchas clases.</li>
+                <li>Selecciona elementos de javascript.</li>
+            </ul>
+        </ul>
+    <div class="box">
+        <h2>HTML</h2>
+        <p>Es un lenguaje de marcado usado para web</p>
+    </div>
+    <div class="box">
+        <h2>HTML</h2>
+        <p>Es un lenguaje de estilos usado para web</p>
+    </div>
+    <div class="box">
+        <h2>HTML</h2>
+        <p>Es un lenguaje de programacion mas importante de la web</p>
+    </div>  
+
+    <h1>Un encabezado <span class="important"> importante</span></h1>
+    <p>Este es el texto<span class="important"> importante</span></p>
+
+
+</body>
+</html>>
