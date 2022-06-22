@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    Elemento div
+    <div style="background-color: black;color: white;padding: 20px;">
+        <h2>Contenedor para otros elementos HTML. Separa en secciones </h2>
+            <p>Elemento tipo bloque.No tiene atributos obligatorios, pero suele usar stylo/class/id.</p>
+    </div>
+
+    Elemento span
+    <h1>Esto es <span style="color:red">importante</span> y rojo</h1>
+    <p> Este elemento se usa como contenedor para texto dentro del div. </p>
+</body>
+</html>
