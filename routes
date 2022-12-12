@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rutas</title>
+    <style>
+        table, th, td{
+            border: 1px solid black; 
+            border-collapse: collapse; /* bordes de la tabla */
+        }
+        th, td{
+            padding: 10px; /* tamaño de las celdas */
+        }
+        th{
+            text-align: left; /* alineacion de las celdas */
+        }
+
+    </style>
+</head>
+<body>
+    <p>Ejmplos de caracteres reemplazadbles.</p>
+    <table style="width: 100%;"> <!-- Para que la tabla ocupe toda la pagina -->
+        <tr align="center">
+            <th>Ruta</th>
+            <th>Descripcion</th>
+        </tr>
+        <tr>
+            <td>img src="picture.jpg"</td>
+            <td>"Esta en la misma carpeta que la pagina."</td>
+        </tr>
+        <tr>
+            <td>img src="img/picture.jgp</td>
+            <td>Esta en la carpeta img que esta en la carpeta actual.</td>
+        </tr>
+        <tr">
+            <td>img src="/img/picture.jgp</td>
+            <td>"Esta en la carpeta img de la carpeta raiz de la web." </td><!-- Unir filas -->     
+        </tr>
+        <tr>
+            <td>img src="../img/picture.jgp</td>
+            <td>Esta en la carpeta img que esta en la carpeta actual.</td>
+        </tr>
+
+        <ul style="list-style-type: circle;">
+            <li>Rutas absolutas</li>
+                <p>Rutas completas</p>
+            <li>Rutas relativas</li>
+                <p>Parte de la localizacion de la carpeta actual</p>
+                <p>Usar siempre que se pueda ya que no dependen de la URL</p>
+
+        </ul>
+</html>
